@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{2978c25e-3624-4657-8fb1-e5d98d9a2c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawing">
+      <UniqueIdentifier>{75ddefb4-2201-46da-b9cb-b6ab6419aa9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{4e652c35-bd8c-4ebb-8c9f-7a50cabd44d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d9">
+      <UniqueIdentifier>{8d234c8a-1223-4130-8f3b-9b0bdec087b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeaderFiles">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="HeaderFiles\pch">
+      <UniqueIdentifier>{de9af0cd-b185-4f9d-a929-73f8d701670c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Cheats\BannyHop">
+      <UniqueIdentifier>{e9eefcd0-1f98-463a-99ef-22b5394ff149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\NoFlash">
+      <UniqueIdentifier>{1a24c1a0-1f84-4374-950a-ff0dd62ac18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\RadarHack">
+      <UniqueIdentifier>{b1137fca-1d8d-407b-997a-1ea79e21e5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\AntiRecoil">
+      <UniqueIdentifier>{d5b27d88-6ebd-411b-9b93-c6be8b8716c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Esp">
+      <UniqueIdentifier>{22b8cc9d-4496-4a85-8312-25f3204a11f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vectors">
+      <UniqueIdentifier>{2d4ad42f-d9a4-43ce-b0c7-16a987695b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{4ef8c153-d8f6-4f85-b7c8-e49f948159db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\AimBot">
+      <UniqueIdentifier>{f6db2cfa-6e6f-4075-ba82-45aa1d08c185}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>HeaderFiles\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>HeaderFiles\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="banny_hop.h">
+      <Filter>Cheats\BannyHop</Filter>
+    </ClInclude>
+    <ClInclude Include="no_flash.h">
+      <Filter>Cheats\NoFlash</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="radar_hack.h">
+      <Filter>Cheats\RadarHack</Filter>
+    </ClInclude>
+    <ClInclude Include="anti_recoil.h">
+      <Filter>Cheats\AntiRecoil</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9.h">
+      <Filter>d3d9</Filter>
+    </ClInclude>
+    <ClInclude Include="modules_bases.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="hack.h">
+      <Filter>Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>Cheats\Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="status.h">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="aim_bot.h">
+      <Filter>Cheats\AimBot</Filter>
+    </ClInclude>
+    <ClInclude Include="namespaces.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>HeaderFiles\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors.cpp">
+      <Filter>Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="banny_hop.cpp">
+      <Filter>Cheats\BannyHop</Filter>
+    </ClCompile>
+    <ClCompile Include="no_flash.cpp">
+      <Filter>Cheats\NoFlash</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="radar_hack.cpp">
+      <Filter>Cheats\RadarHack</Filter>
+    </ClCompile>
+    <ClCompile Include="anti_recoil.cpp">
+      <Filter>Cheats\AntiRecoil</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d9.cpp">
+      <Filter>d3d9</Filter>
+    </ClCompile>
+    <ClCompile Include="hack.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="esp.cpp">
+      <Filter>Cheats\Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="status.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="aim_bot.cpp">
+      <Filter>Cheats\AimBot</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
